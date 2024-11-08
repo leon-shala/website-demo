@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(229, 130, 130);
+    display: grid;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 200px auto;
+    height: 100vh;
+
+}
+
+
+header {
+    grid-column: 1 / -1;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+}
+header h1{
+    text-align: left;
+}
+
+.sidebar ul{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    width: 100%;
+    height: 100%; 
+}
+
+
+.content {
+    background-color: lightyellow;
+    padding: 90px 50px 60px 80px;
+    margin: 90px 80px;
+}
+
+
+footer {
+    grid-column: 1/-1;
+    background-color: lightgreen;
+    text-align: center;
+    
+}
+
+
+iframe { 
+    width: 30%;
+    height: 200px;
+    border: none;
+    
+} 
